@@ -90,6 +90,7 @@ body{
 .margin{
     margin: 0 20px;
 }
+
 /* deal section*/
 .deal{
     display: flex;
@@ -121,6 +122,22 @@ body{
     width: 22%;
     margin: 10px;
 }
+
+/* about */
+.about{
+    background-color: rgb(191, 242, 227);
+}
+.about-info{
+    margin: 0 250px;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+
+.about-info p {
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.5;
+}
 /* form section */
 .subscribe{
     background-image: url(img/Rectangle\ 9.png);
@@ -149,4 +166,24 @@ body{
     margin-right: 10px;
     border: 0;
     border-radius: 10px;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    padding: 100px 0;
+}
+.footer h3{
+    margin: 0;
+}
+.footer p{
+    color: #e6dada;
+    font-size: 15px;
+    font-weight: 200;
+}
+.footer-text{
+    font-size: 13px;
+    font-weight: 200;
+    color: #9b8f8f;
 }
