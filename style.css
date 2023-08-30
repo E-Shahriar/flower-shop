@@ -90,3 +90,63 @@ body{
 .margin{
     margin: 0 20px;
 }
+/* deal section*/
+.deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edd8dc;
+    padding: 100px 0;
+}
+.deal-left{
+    margin-left: 250px;
+    text-align: center;
+}
+.deal-right{
+    margin-right: 250px;
+}
+
+.instagram{
+    width: 80%;
+    margin: 100px 10%;
+}
+.details{
+    text-align: center;
+}
+.galary{
+    display: flex;
+    justify-content: center;
+}
+.galary img{
+    width: 22%;
+    margin: 10px;
+}
+/* form section */
+.subscribe{
+    background-image: url(img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    max-width: 75%;
+    height: 400px;
+    margin: 50px 12.5%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    align-items: center;
+}
+.sub-info{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.form{
+    margin-top: 40px;
+}
+.form input{
+    width: 400px;
+    padding: 18px 0 18px 20px;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 10px;
+}
